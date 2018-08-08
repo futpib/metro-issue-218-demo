@@ -1,0 +1,14 @@
+{
+  "name": "metro-issue-218-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "babel --compact false --presets module:metro-react-native-babel-preset ./index.js -o out.js && cat out.js"
+  },
+  "dependencies": {
+    "@babel/cli": "7.0.0-beta.52",
+    "@babel/core": "7.0.0-beta.52",
+    "metro-react-native-babel-preset": "^0.43.4"
+  }
+}
